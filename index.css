@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .wrapper{
+    max-width: 1170px;
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row;
+    }
+    .l-content{
+     background-color:white;
+     height: 100%;
+     width: 50%;
+    }
+    .frm{
+        padding: 30px;
+        font-size: 17px;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+    .frm button{
+        
+            float: right;
+            width: 20%;
+            padding: 10px;
+            background: white;
+            color: black;
+            font-size: 17px;
+            border: 1px solid grey;
+    }
+    .frm input{
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 50%;
+        background:white;
+    }
+    .galery{
+        padding:0 4px;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        padding: 10px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 3px;
+    }
+    .column{
+        flex: 30%;
+        max-width: 30%;
+    }
+    .img1{
+        
+    }
+    
+    .column img{
+        max-width: 100%;
+        margin-top: 8px;
+        vertical-align: middle;
+    }
+    
+    .r-content{
+    background-color: rgba(238, 231, 231, 0.813);
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: inline;
+    }
+    .footer{
+        background-color: black;
+        height: 100px;
+        
+        position: relative;
+        
+    }
+    .nav{
+        display: flex;
+    }
+    .nav ul{
+        display: flex;
+        text-decoration: none;
+         list-style-type: none;
+    }
+    .nav  li a{
+        height: 40px;
+        line-height: 43px;
+        margin: 3px;
+        padding: 0px 30px;
+        padding-bottom: 30px;
+        display: flex;
+        font-size: 1.0rem;
+        font-weight: 500px;
+        letter-spacing: 1px;
+        color: rgb(81, 83, 69);
+        text-decoration: none;
+       
+        }
+        
+        h3{
+            font-family: Georgia;
+            font-size: small;
+        }
+        .btn{
+            background-color: rgb(255, 131, 7);
+            color: white;
+            font-size: 20px;
+            width: 30%;
+            height: 5%;
+        }
